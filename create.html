@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>テーマを投稿</title>
+  <link rel="stylesheet" href="global.css">
+  <style>
+    form label {
+      margin-right: .5em;
+    }
+
+    form input {
+      width: 20em;
+    }
+
+    form .line {
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>テーマを投稿する</h1>
+  <form action="./create.rb" method="POST">
+    <div class="line">
+      <label for="title">タイトル</label>
+      <input type="text" id="title" name="title">
+    </div>
+    <div class="line">
+      <label for="ans1">選択肢1</label>
+      <input type="text" id="ans1" name="ans1">
+    </div>
+    <div class="line">
+      <label for="ans2">選択肢2</label>
+      <input type="text" id="ans2" name="ans2">
+    </div>
+    <div class="line">
+      <label for="ans3">選択肢3</label>
+      <input type="text" id="ans3" name="ans3">
+    </div>
+    <input type="submit" value="投稿">
+  </form>
+</body>
+
+</html>

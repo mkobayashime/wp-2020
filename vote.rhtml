@@ -1,0 +1,36 @@
+<%# encoding: utf-8 %>
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>投票ページ | <%= title %></title>
+  <link rel="stylesheet" href="global.css">
+  <script src="passThemeId.js"></script>
+  <style>
+    .actions {
+      margin: 1em 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>「<%= title %>」に投票</h1>
+  <form action="vote_submit.rb" method="POST">
+    <input type="hidden" name="theme_id" id="theme_id">
+    <div class="options">
+      <% choices.each do |dom| %>
+        <%= dom %>
+      <% end %>
+    </div>
+    <div class="actions">
+      <input type="submit" value="投票する">
+      <input type="reset" value="リセット">
+    </div>
+  </form>
+  <a href="index.rb">ホームに戻る</a>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<%# encoding: utf-8 %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>投票結果 | <%= title %></title>
+  <link rel="stylesheet" href="global.css">
+</head>
+<body>
+  <h1>「<%= title %>」の結果</h1>
+  <ol>
+    <% choices.each do |dom| %>
+      <%= dom %>
+    <% end %>
+  </ol>
+  <div><a href="index.rb">ホームに戻る</a></div>
+</body>
+</html>

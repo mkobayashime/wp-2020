@@ -1,0 +1,30 @@
+<%# encoding: utf-8 %>
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>アンケートの削除</title>
+  <link rel="stylesheet" href="global.css">
+</head>
+
+<body>
+  <% if user_id === "0" %>
+    <h1>ユーザー登録されていません</h1>
+    <p>ホームを開いてからやり直してください</p>
+    <a href="index.rb">ホームに戻る</a>
+  <% else %>
+    <% if err.empty? %>
+      <h1>アンケートを削除しました</h1>
+      <a href="index.rb">ホームに戻る</a>
+    <% else %>
+      <h1>エラーが発生しました</h1>
+      <p><%= err %></p>
+      <a href="index.rb">ホームに戻る</a>
+    <% end %>
+  <% end %>
+</body>
+
+</html>
