@@ -1,0 +1,11 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE themes (
+theme_id TEXT PRIMARY KEY,
+user_id TEXT,
+title TEXT);
+INSERT INTO "themes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','f5e41f73-3cde-41f3-bcce-5a72d90b0bc2','エディタ戦争');
+INSERT INTO "themes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','f5e41f73-3cde-41f3-bcce-5a72d90b0bc2','好きな色は?');
+INSERT INTO "themes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','f5e41f73-3cde-41f3-bcce-5a72d90b0bc2','好きな食べ物');
+INSERT INTO "themes" VALUES('b846bf95-b72b-4404-b155-c228ba9d007f','f5e41f73-3cde-41f3-bcce-5a72d90b0bc2','当システムにどのくらい満足していますか?');
+COMMIT;

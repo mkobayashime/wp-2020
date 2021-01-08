@@ -1,0 +1,49 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE votes(
+theme_id TEXT,
+choice_id TEXT,
+user_id TEXT,
+PRIMARY KEY (theme_id, choice_id, user_id)
+);
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','430d6be3-777d-413b-b7be-b5a151daff49','d02fdcf9-9be0-4e2d-bc76-bea7576b1594');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','27bfa6b8-9f5d-4d62-8be6-205c32d8b7bd','d02fdcf9-9be0-4e2d-bc76-bea7576b1594');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','430d6be3-777d-413b-b7be-b5a151daff49','3d84f963-ae77-4db3-9190-16e4fc666bb3');
+INSERT INTO "votes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','fd24c4c1-4f14-409d-91e9-5d157afa734a','3d84f963-ae77-4db3-9190-16e4fc666bb3');
+INSERT INTO "votes" VALUES('db64ecec-5f40-4344-a63c-64cb565e7131','2de4d58d-4da1-423c-9977-b0274ab96a32','f5e41f73-3cde-41f3-bcce-5a72d90b0bc2');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','27bfa6b8-9f5d-4d62-8be6-205c32d8b7bd','3d84f963-ae77-4db3-9190-16e4fc666bb3');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','430d6be3-777d-413b-b7be-b5a151daff49','8cee66e7-8532-4e67-9b66-e2a36d44eca4');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','430d6be3-777d-413b-b7be-b5a151daff49','b2dfc70c-6d95-48eb-aa45-6d8cf313ef92');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','932da10b-40d8-424a-9e73-946908bcce1f','b2dfc70c-6d95-48eb-aa45-6d8cf313ef92');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','430d6be3-777d-413b-b7be-b5a151daff49','7fe73588-3a1f-4d0f-95c1-1c5575565c5b');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','27bfa6b8-9f5d-4d62-8be6-205c32d8b7bd','7fe73588-3a1f-4d0f-95c1-1c5575565c5b');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','430d6be3-777d-413b-b7be-b5a151daff49','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','27bfa6b8-9f5d-4d62-8be6-205c32d8b7bd','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','932da10b-40d8-424a-9e73-946908bcce1f','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','fd24c4c1-4f14-409d-91e9-5d157afa734a','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','73db94ff-b62f-48a9-b924-ee1f90df4f18','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','70dde6bb-e2cd-4660-824e-7aa4ec9e6f6c','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','1d97c132-c4ca-40a0-94ae-d92675746afa','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('b846bf95-b72b-4404-b155-c228ba9d007f','70d62db1-9384-4701-ac62-19b3cd5cbdfb','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('b846bf95-b72b-4404-b155-c228ba9d007f','313edc33-aed2-4736-b37d-f65914a9309c','40faf22b-4540-4ce5-9e9d-93cf72048579');
+INSERT INTO "votes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','fd24c4c1-4f14-409d-91e9-5d157afa734a','693cfc25-24e2-49dc-988c-7dee162c0ac5');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','70dde6bb-e2cd-4660-824e-7aa4ec9e6f6c','693cfc25-24e2-49dc-988c-7dee162c0ac5');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','266c8a7c-fd69-4df0-81ae-c17348261fde','693cfc25-24e2-49dc-988c-7dee162c0ac5');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','430d6be3-777d-413b-b7be-b5a151daff49','693cfc25-24e2-49dc-988c-7dee162c0ac5');
+INSERT INTO "votes" VALUES('b846bf95-b72b-4404-b155-c228ba9d007f','70d62db1-9384-4701-ac62-19b3cd5cbdfb','693cfc25-24e2-49dc-988c-7dee162c0ac5');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','430d6be3-777d-413b-b7be-b5a151daff49','52eab619-c266-4981-ac47-ae3f691b0172');
+INSERT INTO "votes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','fd24c4c1-4f14-409d-91e9-5d157afa734a','52eab619-c266-4981-ac47-ae3f691b0172');
+INSERT INTO "votes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','73db94ff-b62f-48a9-b924-ee1f90df4f18','52eab619-c266-4981-ac47-ae3f691b0172');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','266c8a7c-fd69-4df0-81ae-c17348261fde','52eab619-c266-4981-ac47-ae3f691b0172');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','1d97c132-c4ca-40a0-94ae-d92675746afa','52eab619-c266-4981-ac47-ae3f691b0172');
+INSERT INTO "votes" VALUES('b846bf95-b72b-4404-b155-c228ba9d007f','313edc33-aed2-4736-b37d-f65914a9309c','52eab619-c266-4981-ac47-ae3f691b0172');
+INSERT INTO "votes" VALUES('b599af5a-dd47-4a4a-83dc-decb41b29bed','27bfa6b8-9f5d-4d62-8be6-205c32d8b7bd','84e360f4-8e41-45ff-b260-e46880585d7a');
+INSERT INTO "votes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','fd24c4c1-4f14-409d-91e9-5d157afa734a','84e360f4-8e41-45ff-b260-e46880585d7a');
+INSERT INTO "votes" VALUES('dcf8fd98-2cfc-4774-8df6-d7f02a9ceea3','51a0b596-9a2b-4239-bf53-3fcbccdbdbb3','84e360f4-8e41-45ff-b260-e46880585d7a');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','1d97c132-c4ca-40a0-94ae-d92675746afa','84e360f4-8e41-45ff-b260-e46880585d7a');
+INSERT INTO "votes" VALUES('b846bf95-b72b-4404-b155-c228ba9d007f','70d62db1-9384-4701-ac62-19b3cd5cbdfb','84e360f4-8e41-45ff-b260-e46880585d7a');
+INSERT INTO "votes" VALUES('b846bf95-b72b-4404-b155-c228ba9d007f','313edc33-aed2-4736-b37d-f65914a9309c','84e360f4-8e41-45ff-b260-e46880585d7a');
+INSERT INTO "votes" VALUES('b846bf95-b72b-4404-b155-c228ba9d007f','f31eea0e-e38a-416f-84e7-b53764da5b2e','449867f7-f664-4625-aa2a-42af66630209');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','266c8a7c-fd69-4df0-81ae-c17348261fde','449867f7-f664-4625-aa2a-42af66630209');
+INSERT INTO "votes" VALUES('edd36ec4-e9ac-46db-aa30-0b60716a74d1','1d97c132-c4ca-40a0-94ae-d92675746afa','449867f7-f664-4625-aa2a-42af66630209');
+COMMIT;
